@@ -132,7 +132,7 @@ function click_search() {
 
 	// Change color of selected value
 	//$(".header").css("color" , "#212121");
-	//$(".group-header").css("color", "#e18e94");
+	//$(".group-header").css("color", "#edad42");
     // Default search is by grouping
 	options = {"_search":"&sort=[\"grouping<string>\"]","_view":"query-by-group"}
 	searchResults(entry, options);
@@ -1608,7 +1608,7 @@ $(document).ready(function () {
 	if (db.name === "rp" || db.name === "mj") {
         $("#logo").attr("src", "images/" + db.name + ".png");
     } else {
-        $("#logo").attr("src", "images/logo.png");
+        $("#logo").attr("src", "images/logo3.png");
     }
 
 	// Tabs
@@ -1715,7 +1715,7 @@ $(document).ready(function () {
 //	$(".group-header").click(function () {
 //		// Change color of selected value
 //		$(".header").css("color", "#212121");
-//		$(".group-header").css("color", "#e18e94");
+//		$(".group-header").css("color", "#edad42");
 //		options = {
 //            "_search": "&sort=[\"grouping<string>\"]",
 //            "_view": "query-by-group"
@@ -1727,7 +1727,7 @@ $(document).ready(function () {
 //	$(".name-header").click(function () {
 //		// Change color of selected value
 //		$(".header").css("color", "#212121");
-//		$(".name-header").css("color", "#e18e94");
+//		$(".name-header").css("color", "#edad42");
 //		options = {
 //            "_search": "&sort=[\"name<string>\"]",
 //            "_view": "query-by-name"
@@ -1739,7 +1739,7 @@ $(document).ready(function () {
 //	$(".th-header").click(function () {
 //		// Change color of selected value
 //		$(".header").css("color", "#212121");
-//		$(".th-header").css("color", "#e18e94");
+//		$(".th-header").css("color", "#edad42");
 //		options = {
 //            "_search": "&sort=[\"th<number>\"]",
 //            "_view": "query-by-th"
@@ -1751,7 +1751,7 @@ $(document).ready(function () {
 //	$(".u-header").click(function () {
 //		// Change color of selected value
 //		$(".header").css("color", "#212121");
-//		$(".u-header").css("color", "#e18e94");
+//		$(".u-header").css("color", "#edad42");
 //		options = {
 //            "_search": "&sort=[\"u<number>\"]",
 //            "_view": "query-by-u"
