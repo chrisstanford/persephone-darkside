@@ -249,6 +249,7 @@ def upload_json():
 
     print("\n Document Name           HTML Status Code (201 is Success)")
     for i in uploadListing:
+        print i
         if validate:
             if validateJSON.is_valid_JSON(i):
                 f = open(i, 'r')
